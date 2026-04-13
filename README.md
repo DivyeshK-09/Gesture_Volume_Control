@@ -1,9 +1,4 @@
 
----
-
-# 3. Gesture Volume Control
-
-```md
 # Gesture Volume Control
 
 ## Overview
