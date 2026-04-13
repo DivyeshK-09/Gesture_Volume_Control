@@ -1,9 +1,46 @@
+
+---
+
+# 3. Gesture Volume Control
+
+```md
 # Gesture Volume Control
 
-A Python-based gesture volume control module using the [MediaPipe](https://google.github.io/mediapipe/) framework and [OpenCV](https://opencv.org/). It tracks hand gestures to control system volume dynamically.
+## Overview
+A computer vision-based system that controls system volume using hand gestures.
 
-## Features
+## Objective
+- Enable touchless control
+- Explore real-time hand tracking
 
-- Hand tracking via MediaPipe.
-- Real-time volume adjustment based on finger distance.
-- Visual feedback using OpenCV.
+## Approach
+- Hand detection using computer vision
+- Distance between fingers mapped to volume level
+
+## Tech Stack
+- Python
+- OpenCV
+- MediaPipe
+- Pycaw (system volume control)
+
+## Workflow
+1. Capture webcam input
+2. Detect hand landmarks
+3. Measure finger distance
+4. Map to system volume
+
+## Results
+- Real-time gesture-based control
+- Smooth interaction
+
+## Challenges
+- Lighting conditions
+- Detection accuracy
+
+## Future Improvements
+- Multi-gesture support
+- Gesture customization
+
+## How to Run
+```bash
+python main.py
